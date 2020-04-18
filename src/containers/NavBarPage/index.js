@@ -12,7 +12,7 @@ class NavBarPage extends Component {
   handleItemClick = (e, { name }) => {
     const { history } = this.props;
     this.setState({ activeItem: name });
-    history.push(`${name}`)
+    history.push(`/portfolio/${name}`)
   };
 
   render() {

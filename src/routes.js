@@ -11,13 +11,13 @@ const PublicRoutes = ({ history }) => {
   return (
     <Router history={history}>
       <Switch>
-        <Redirect exact from="/" to="/about" />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/workExperience" component={Experience} />
-        <Route exact path="/projects" component={Project} />
-        <Route exact path="/education" component={Education} />
-        <Route exact path="/awards" component={Project} />
-        <Route exact path="/interests" component={Interest} />
+        <Redirect exact from="/" to="/portfolio/about" />
+        <Route exact path="/portfolio/about" component={About} />
+        <Route exact path="/portfolio/workExperience" component={Experience} />
+        <Route exact path="/portfolio/projects" component={Project} />
+        <Route exact path="/portfolio/education" component={Education} />
+        <Route exact path="/portfolio/awards" component={Project} />
+        <Route exact path="/portfolio/interests" component={Interest} />
       </Switch>
     </Router>
   );
