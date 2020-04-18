@@ -12,6 +12,7 @@ const PublicRoutes = ({ history }) => {
     <Router history={history}>
       <Switch>
         <Redirect exact from="/" to="/portfolio/about" />
+        <Redirect exact from="/portfolio/" to="/portfolio/about" />
         <Route exact path="/portfolio/about" component={About} />
         <Route exact path="/portfolio/workExperience" component={Experience} />
         <Route exact path="/portfolio/projects" component={Project} />
