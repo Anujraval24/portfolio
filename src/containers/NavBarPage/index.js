@@ -8,7 +8,6 @@ class NavBarPage extends Component {
     super(props);
     this.state = {
       activeItem: "about",
-      visible: true,
     };
   }
 
@@ -19,8 +18,7 @@ class NavBarPage extends Component {
   };
 
   render() {
-    const { activeItem, visible } = this.state;
-    const { children } = this.props;
+    const { activeItem } = this.state;
 
     return (
       <div>

@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 import { Icon } from "semantic-ui-react";
 
-const SemanticIcon = ({ name }) => {
+const SemanticIcon = ({ name, link, as, size }) => {
   return (
     <Fragment>
-      <Icon name={name} />
+      <Icon name={name} as={as} link={link} size={size} />
     </Fragment>
   );
 };
