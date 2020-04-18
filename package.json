@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anujraval24.gituhb.io/portfolio",
+  "homepage": "https://anujraval24.github.io/portfolio",
   "dependencies": {
     "history": "^4.10.1",
     "react": "^16.13.1",
