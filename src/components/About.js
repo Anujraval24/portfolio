@@ -17,13 +17,14 @@ const About = (props) => {
   const imageSrc =
     "https://avatars1.githubusercontent.com/u/17050077?s=460&u=708e6c60fb62d55625c233eab0aba40d2c048998&v=4";
   return (
-    <div>
+    <div className="padding">
       <SemanticCard
         header={header}
         centered
         description={description}
         imageFloated="left"
-        imageSize="circular"
+        imageSize="medium"
+        imageCircular={true}
         imageSrc={imageSrc}
         extraContent
         extraContentMeta={extraContentMeta}

@@ -15,6 +15,7 @@ const SemanticCard = ({
   imageFloated,
   imageSize,
   imageSrc,
+  imageCircular,
   children,
 }) => {
   return (
@@ -26,6 +27,7 @@ const SemanticCard = ({
               floated={imageFloated}
               size={imageSize}
               src={imageSrc}
+              circular={imageCircular}
             />
             <Card.Header>{header}</Card.Header>
             <Card.Description>{description}</Card.Description>

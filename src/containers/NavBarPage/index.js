@@ -7,7 +7,7 @@ class NavBarPage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeItem: "about",
+      activeItem: "",
     };
   }
 
@@ -23,7 +23,12 @@ class NavBarPage extends Component {
     return (
       <div>
         {/* Desktop NavBar */}
-        <Responsive as={Menu.Item} minWidth={Responsive.onlyComputer.minWidth}>
+        <Responsive
+          as={Menu.Item}
+          {...Responsive.onlyComputer}
+          minWidth={Responsive.onlyComputer.minWidth}
+          maxWidth={Responsive.onlyComputer.maxWidth}
+        >
           <NavBarDesktop
             activeItem={activeItem}
             handleItemClick={this.handleItemClick}
