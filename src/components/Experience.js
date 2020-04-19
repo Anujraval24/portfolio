@@ -7,7 +7,7 @@ const Experience = (props) => {
     <div className="padding">
       <Card raised centered fluid>
         <Segment padded raised attached piled>
-          <Label attached="top">MERN Stack Developer</Label>
+          <Label attached="top" size="large">MERN Stack Developer</Label>
           <Header as="h1" textAlign="center" content="DOT InfoTech" />
           <Label>
             <SemanticIcon name="calendar alternate outline" />

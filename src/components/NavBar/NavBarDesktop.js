@@ -12,8 +12,8 @@ const NavBarDesktop = ({ activeItem, handleItemClick, handleSidebar }) => {
         </Menu.Item>
 
         <MenuItem
-          name="about"
-          active={activeItem === "about"}
+          name="aboutMe"
+          active={activeItem === "aboutMe"}
           handleItemClick={handleItemClick}
         />
         <MenuItem
@@ -32,13 +32,13 @@ const NavBarDesktop = ({ activeItem, handleItemClick, handleSidebar }) => {
           handleItemClick={handleItemClick}
         />
         <MenuItem
-          name="awards"
-          active={activeItem === "awards"}
+          name="technicalSkills"
+          active={activeItem === "technicalSkills"}
           handleItemClick={handleItemClick}
         />
         <MenuItem
-          name="interests"
-          active={activeItem === "interests"}
+          name="awardsInterests"
+          active={activeItem === "awardsInterests"}
           handleItemClick={handleItemClick}
         />
       </Menu>

@@ -3,10 +3,7 @@ import { Menu } from "semantic-ui-react";
 import MenuItem from "./MenuItem";
 import SemanticIcon from "../Icon/Icon";
 
-const NavBarMobile = ({
-  activeItem,
-  handleItemClick,
-}) => {
+const NavBarMobile = ({ activeItem, handleItemClick }) => {
   return (
     <Fragment>
       <Menu stackable vertical icon="labeled" fluid floated>
@@ -14,8 +11,8 @@ const NavBarMobile = ({
           <SemanticIcon name="heart" />
         </Menu.Item>
         <MenuItem
-          name="about"
-          active={activeItem === "about"}
+          name="aboutMe"
+          active={activeItem === "aboutMe"}
           handleItemClick={handleItemClick}
         />
         <MenuItem
@@ -34,13 +31,13 @@ const NavBarMobile = ({
           handleItemClick={handleItemClick}
         />
         <MenuItem
-          name="awards"
-          active={activeItem === "awards"}
+          name="technicalSkills"
+          active={activeItem === "technicalSkills"}
           handleItemClick={handleItemClick}
         />
         <MenuItem
-          name="interests"
-          active={activeItem === "interests"}
+          name="awardsInterests"
+          active={activeItem === "awardsInterests"}
           handleItemClick={handleItemClick}
         />
       </Menu>
