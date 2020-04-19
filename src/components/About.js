@@ -33,11 +33,11 @@ const About = (props) => {
         <Button
           fluid
           size="large"
-          icon="user circle outline"
+          icon="code"
           onClick={() => {
             setViewMore(!viewMore);
           }}
-          content="Toggle Social Profiles"
+          content="Connect Via Platforms"
         />
         {viewMore && <SocialButtons />}
       </SemanticCard>

@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Header,
-  Segment,
-  Label,
-  List,
-  Card,
-  Divider,
-} from "semantic-ui-react";
+import { Header, Segment, Label, List, Card, Divider } from "semantic-ui-react";
 import SemanticIcon from "./Icon/Icon";
 
 const Experience = (props) => {
@@ -26,10 +19,10 @@ const Experience = (props) => {
             <List.Item>
               <List.Content>
                 <List.Header>
+                  <List.Icon size="large" name="node" />
                   <List.Icon name="node js" />
-                  Node JS
                   <List.Icon name="react" />
-                  React JS
+                  <List.Icon name="js" />
                 </List.Header>
                 <List.Description>
                   Worked On Multiple Client Projects - Admin Panel, API &amp;
@@ -49,8 +42,8 @@ const Experience = (props) => {
             <List.Item>
               <List.Content>
                 <List.Header>
+                  <List.Icon size="large" name="node" />
                   <List.Icon name="node js" />
-                  Node JS
                 </List.Header>
                 <List.Description>
                   Designed, Architected of Backend Node JS API Structure <br />
@@ -62,10 +55,10 @@ const Experience = (props) => {
             <List.Item>
               <List.Content>
                 <List.Header>
+                  <List.Icon size="large" name="node" />
                   <List.Icon name="node js" />
-                  Node JS
                   <List.Icon name="react" />
-                  React JS
+                  <List.Icon name="js" />
                 </List.Header>
                 <List.Description>
                   Worked an E-Commerce Website &amp; API
