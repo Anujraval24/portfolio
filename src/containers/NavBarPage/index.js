@@ -26,6 +26,8 @@ class NavBarPage extends Component {
         <Responsive
           as={Menu.Item}
           {...Responsive.onlyComputer}
+          {...Responsive.onlyLargeScreen}
+          {...Responsive.onlyTablet}
           minWidth={Responsive.onlyComputer.minWidth}
           maxWidth={Responsive.onlyComputer.maxWidth}
         >
