@@ -7,19 +7,31 @@ const SocialButtons = (props) => {
     <div>
       <Divider />
       <Link to="mailto:anujraval24@gmail.com" target="_blank">
-        <Button color="blue" fluid floated icon="mail" />
+        <Button color="blue" fluid floated icon="mail" content="Gmail" />
       </Link>
       <Divider />
       <Link to="https://github.com/Anujraval24" target="_blank">
-        <Button color="black" fluid floated icon="github" />
+        <Button color="black" fluid floated icon="github" content="Github" />
       </Link>
       <Divider />
       <Link to="https://www.linkedin.com/in/anujraval" target="_blank">
-        <Button color="linkedin" fluid floated icon="linkedin" />
+        <Button
+          color="linkedin"
+          fluid
+          floated
+          icon="linkedin"
+          content="Linkedin"
+        />
       </Link>
       <Divider />
       <Link to="https://twitter.com/annujraval" target="_blank">
-        <Button color="twitter" fluid floated icon="twitter" />
+        <Button
+          color="twitter"
+          fluid
+          floated
+          icon="twitter"
+          content="Twitter"
+        />
       </Link>
       <Divider />
       <Link to="https://www.instagram.com/annujraval" target="_blank">
@@ -43,7 +55,7 @@ const SocialButtons = (props) => {
       </Link>
       <Divider />
       <Link to="https://join.skype.com/invite/pwoxo0zCNpSS" target="_blank">
-        <Button color="blue" fluid floated icon="skype" />
+        <Button color="blue" fluid floated icon="skype" content="Skype" />
       </Link>
     </div>
   );

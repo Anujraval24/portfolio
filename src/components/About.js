@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import { Button } from "semantic-ui-react";
+
 import SemanticCard from "./Card";
 import SocialButtons from "./SocialButtons";
-import { Button } from "semantic-ui-react";
 
 const About = (props) => {
   const [viewMore, setViewMore] = useState(false);
@@ -30,7 +31,12 @@ const About = (props) => {
         extraContentMeta={extraContentMeta}
       >
         <Button
-          onClick={() => setViewMore(!viewMore)}
+          fluid
+          size="large"
+          icon="user circle outline"
+          onClick={() => {
+            setViewMore(!viewMore);
+          }}
           content="Toggle Social Profiles"
         />
         {viewMore && <SocialButtons />}
