@@ -21,7 +21,7 @@ const SemanticCard = ({
   return (
     <Fragment>
       <Card.Group itemsPerRow={itemsPerRow}>
-        <Card color={color} centered={centered} fluid={fluid}>
+        <Card color={color} centered={centered} fluid={fluid} raised={true}>
           <Card.Content>
             <SemanticImage
               floated={imageFloated}
