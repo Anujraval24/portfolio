@@ -19,6 +19,18 @@ const OpenSource = () => {
         <Header
           as="h3"
           textAlign="center"
+          content="MyCroft AI"
+          subheader="Mycroft is the world’s first open source voice assistant."
+        />
+        <Message content="Artificial Intelligence in Raspberry Pi using open source APIs (MIMIC TTS Engine, STS libraries)" />
+        <Link to="https://mycroft.ai" target="_blank">
+          <Label as="a" basic content="https://mycroft.ai" color="black" />
+        </Link>
+      </Segment>
+      <Segment padded raised>
+        <Header
+          as="h3"
+          textAlign="center"
           content="Hacktoberfest"
           subheader="Hackthon organized by Digital Ocean, Twilio, GitHub Every October"
         />
