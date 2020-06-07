@@ -36,8 +36,8 @@ const NavBarMobile = ({ activeItem, handleItemClick }) => {
           handleItemClick={handleItemClick}
         />
         <MenuItem
-          name="awardsInterests"
-          active={activeItem === "awardsInterests"}
+          name="others"
+          active={activeItem === "others"}
           handleItemClick={handleItemClick}
         />
       </Menu>

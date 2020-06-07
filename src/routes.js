@@ -6,8 +6,7 @@ import Project from "./components/Projects";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import TechnicalSkills from "./components/TechnicalSkills";
-
-import AwardsInterest from "./containers/AwardsInterest/Index";
+import Others from "./components/Others";
 
 const PublicRoutes = ({ history }) => {
   return (
@@ -21,8 +20,8 @@ const PublicRoutes = ({ history }) => {
         <Route exact path="/portfolio/education" component={Education} />
         <Route
           exact
-          path="/portfolio/awardsInterests"
-          component={AwardsInterest}
+          path="/portfolio/others"
+          component={Others}
         />
         <Route
           exact
