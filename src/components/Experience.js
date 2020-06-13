@@ -7,8 +7,8 @@ const Experience = (props) => {
     <div className="padding">
       <Card raised centered fluid>
         <Segment padded raised attached piled>
-          <Label attached="top" size="big">
-            MERN Stack Developer
+          <Label attached="top" size="large">
+            Work Experience
           </Label>
           <Header as="h1" textAlign="center" content="DOT InfoTech" />
           <Label>

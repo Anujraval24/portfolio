@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import TechnicalSkills from "./components/TechnicalSkills";
 import Others from "./components/Others";
+import SocialButtons from "./components/SocialButtons";
 
 const PublicRoutes = ({ history }) => {
   return (
@@ -18,11 +19,8 @@ const PublicRoutes = ({ history }) => {
         <Route exact path="/portfolio/workExperience" component={Experience} />
         <Route exact path="/portfolio/projects" component={Project} />
         <Route exact path="/portfolio/education" component={Education} />
-        <Route
-          exact
-          path="/portfolio/others"
-          component={Others}
-        />
+        <Route exact path="/portfolio/connectVia" component={SocialButtons} />
+        <Route exact path="/portfolio/others" component={Others} />
         <Route
           exact
           path="/portfolio/technicalSkills"

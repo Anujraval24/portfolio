@@ -1,16 +1,16 @@
 import React, { Fragment } from "react";
 import { Menu } from "semantic-ui-react";
 import MenuItem from "./MenuItem";
-import SemanticIcon from "../Icon/Icon";
 
 const NavBarDesktop = ({ activeItem, handleItemClick, handleSidebar }) => {
   return (
     <Fragment>
       <Menu size="large" fluid widths="7">
-        <Menu.Item header>
-          <SemanticIcon name="heart" />
-        </Menu.Item>
-
+        <MenuItem
+          name="connectVia"
+          active={activeItem === "connectVia"}
+          handleItemClick={handleItemClick}
+        />
         <MenuItem
           name="aboutMe"
           active={activeItem === "aboutMe"}

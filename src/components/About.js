@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { Button } from "semantic-ui-react";
+import { useHistory } from "react-router-dom";
 
 import SemanticCard from "./Card";
-import SocialButtons from "./SocialButtons";
 
 const About = (props) => {
-  const [viewMore, setViewMore] = useState(false);
+  const history = useHistory();
   const header = "Anuj B. Raval";
   const description = "MERN Stack Developer";
   const extraContentMeta = (
@@ -34,12 +34,9 @@ const About = (props) => {
           fluid
           size="large"
           icon="code"
-          onClick={() => {
-            setViewMore(!viewMore);
-          }}
+          onClick={() => history.push("/portfolio/connectVia")}
           content="Connect Via Platforms"
         />
-        {viewMore && <SocialButtons />}
       </SemanticCard>
     </div>
   );
